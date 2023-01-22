@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ? ----- =GENERAL STYLE -----  */
+
+li,
+a,
+button {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1024px;
+    min-height: 1000px;
+}
+
+/* ? ----- =HEADER SECTION -----  */
+    .search_bar {
+        background-color: #131921;
+        height: 50px;
+    }
+
+        .search_bar li {
+            margin: 0 10px;
+            vertical-align: middle;
+            display: inline-block;
+            font-size: 10px;
+        }
+
+        .search_bar img {
+            width: 20px;
+        }
+
+        .search_bar select {
+            border-color: transparent;
+            background-color: #f3f3f3;
+            font-size: 10px;
+            width: 50px;
+            text-align: center;
+        }
+        .search_bar input {
+            border-color: transparent;
+            width: 464px;
+        }
+
+            .search_bar li span {
+                font-weight: 100;
+                font-size: 8px;
+            }
+
+            .search_bar li a {
+                color: white;
+            }
+        
+            .search_bar .search_field {
+                margin: 5px;
+                vertical-align: middle;
+                background-color: white;
+            }
+
+            .search_bar .search-pic {
+                padding: 3px;
+                background-color: #febe68;
+                width: 20px;
+                height: 20px;
+                vertical-align: middle;
+            }
+
+            .search_bar .move_top {
+                vertical-align: top;
+            }
+
+            .search_bar .amazon-logo {
+                margin-top: 10px;
+                width: 90px;
+            }
+
+    .all_deals {
+        width: 100%;
+        height: 25px;
+        background-color: #232f3e;
+    }
+
+        .all_deals li {
+            padding: 5px 5px;
+            margin: 0 5px;
+            display: inline-block;
+            font-size: 10px;
+        }
+        
+        .all_deals .last_li {
+            margin-left: 470px;
+        }
+
+            .all_deals li a {
+                color: white;
+            }
+
+/* ? ----- =MAIN SECTION -----  */
+
+    main .bg {
+        background-image: url(img/image2.jpg);
+        width: 100%;
+        min-height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+        position: relative;
+    }
+
+    main .bg_section {
+        position: relative;
+        background-color: #e7e9e9;
+        top: 300px;
+        height: 550px;
+        z-index: -2;
+    }
+
+    .deals_1 {
+        position: absolute;
+        top: 180px;
+    }
+
+        .deals_1 li {
+            padding: 10px;
+            background-color: white;
+            width: 213px;
+            height: 250px;
+            margin: 0 10px;
+            display: inline-block;
+        }
+        
+        .deals_1 li img {
+            width: 213px;
+            height: 170px;
+        }
+        
+            .deals_1 li p {
+                margin: 5px 0;
+                color: black;
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+            .deals_1 li a {
+                margin-top: 40px;
+                display: block;
+                font-size: 10px;
+            }
+
+    .deals_2 {
+        position: absolute;
+        top: 490px;
+    }
+
+        .deals_2 li {
+            padding: 10px;
+            background-color: white;
+            width: 213px;
+            height: 265px;
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+            .deals_2 li p {
+                color: black;
+                font-size: 14px;
+                font-weight: 600;
+                margin: 5px 0;
+            }
+
+            .deals_2 li a {
+                margin-top: 40px;
+                display: block;
+                font-size: 10px;
+            }
+
+            .deals_2 li img {
+                width: 213px;
+                height: 170px;
+            }
+            .deals_2 li .shirt,
+            .deals_2 li .hat {
+                margin-left: 60px;
+                width: 100px;
+                height: 71px;
+            }
+
+            .deals_2 .add-mb {
+                padding-bottom: 15px;
+            }
+
+            .deals_2 .change-typo {
+                font-size: 10px;
+                margin: 0;
+                text-align: center;
+            }
+
+/* ? ----- =FOOTER SECTION -----  */
+    footer {
+        position: relative;
+        top: 280px;
+        background-color: #121921;
+        font-weight: 100px;
+        font-size: 10px;
+        text-align: center;
+        height: 80px;
+    }
+
+        footer .bg_white {
+            background-color: white;
+            width: 100%;
+            height: 20px;
+        }
+
+        footer ul {
+            padding-top: 5px;
+        }
+
+            footer ul li {
+                display: inline-block;
+                margin: 5px 5px;
+                display: inline-block;
+            }
+
+                footer a,
+                footer p {
+                    color: #adaeaf;
+                }
+
+/* ? ----- =RESPONSIVE STYLE -----  */
